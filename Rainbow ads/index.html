@@ -1,101 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-
-    <!-- Bootstrap CSS -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
-    <!-- Fontawesome cnd-->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-
-    <!--Google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="./styles.css" />
-
-    <title>Rainbow Ads</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg fixed-top py-3">
-      <div class="container">
-        <a href="#" class="navbar-brand text-uppercase font-weight-bold"
-          >Rainbow Ads</a
-        >
-        <div id="navbarSupportedContent" class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a href="#" class="nav-link text-uppercase font-weight-bold"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-uppercase font-weight-bold"
-                >page 1</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-uppercase font-weight-bold"
-                >page 2</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-uppercase font-weight-bold"
-                >page 3</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-uppercase font-weight-bold"
-                >page 4</a
-              >
-            </li>
-          </ul>
+    <!-- Navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top py-3">
+        <div class="container">
+          <a href="#" class="navbar-brand text-uppercase font-weight-bold"
+            >Rainbow Ads</a
+          >
+          <button
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            class="navbar-toggler navbar-toggler-right"
+          >
+            <i class="fa fa-bars" style="color: white"></i>
+          </button>
+
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a href="#" class="nav-link text-uppercase font-weight-bold"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-uppercase font-weight-bold"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-uppercase font-weight-bold"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-uppercase font-weight-bold"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-uppercase font-weight-bold"
+                  >Home</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <header>
-      <div class="container">
-        <img src="./img/Rainbow-bg.png" alt="bg-img" />
-        <div class="centered" id="head-1">RAINBOW ADS</div>
-        <div id="head-2">Easy and Convenient Advertising</div>
-        <div id="head-3">Hassle Free.</div>
-      </div>
+      </nav>
     </header>
-    <div class="content">
-      <p>
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It
-        has roots in a piece of classical Latin literature from 45 BC, making it
-        over 2000 years old. Richard McClintock, a Latin professor at
-        Hampden-Sydney College in Virginia, looked up one of the more obscure
-        Latin words, consectetur, from a Lorem Ipsum passage, and going through
-        the cites of the word in classical literature, discovered the
-        undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
-        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
-        Cicero, written in 45 BC. This book is a treatise on the theory of
-        ethics, very popular during the Renaissance. The first line of Lorem
-        Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
-        1.10.32.
-      </p>
+
+    <!-- Content -->
+    <div class="container">
+      <div class="pt-5 text-white">
+        <header class="py-5 mt-5">
+          <h1 class="display-4" id="head-1">Rainbow Ads</h1>
+          <p class="lead mb-0" id="head-2">Easy And Convenient Advertising</p>
+          <p class="lead mb-0" id="head-2">Hassle Free</p>
+        </header>
+      </div>
     </div>
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="./main.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -106,5 +90,6 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
+    <script src="./main.js"></script>
   </body>
 </html>
